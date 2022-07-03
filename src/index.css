@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.ToDo{
+  height: 1000px;
+  background-color: #0B2161;
+  
+}
+.ToDoh1{
+  margin-top: 0px;
+  padding-top:10px ;
+  text-align: center;
+  color: white;
+}
+.ToDoItem{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #08298A;
+  border-radius: 10px;
+  background-color: #08298A;
+  width: 300px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  align-items: center;
+  color: white;
+}
+.ToDoItem:hover{
+  width: 310px;
+  height: 60px;
+  transition: all ease 0.2s;
+  
+}
+.borderIcon{
+  border: 2px solid #FA58F4;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  
+}
+.CreateToDoFieldBlock{
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
+.CreateToDoField{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  color: black;
+  outline: none;
+  outline-offset: 0;
+  background-color: #0B2161;
+  border: 2px solid #08298A;
+  color: white;
+}
+.iconCheck{
+  padding-left: 1px;
+  background-color: #FA58F4;
+  width: 20px;
+  height: 20px;
+}
+.iconTrash{
+  cursor: pointer;
+  margin-right: 10px;
+}
+.iconTrash:hover{
+  color: #FF0040;
+  transition: all ease 0.2s;
+}
